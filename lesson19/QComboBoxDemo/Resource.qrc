@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/new-file-icon-16.jpg</file>
+        <file>img/open-file-icon-19.jpg</file>
+        <file>img/toppng.com-exit-icon-exit-icon-2021x1941.png</file>
+    </qresource>
+</RCC>

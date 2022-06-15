@@ -1,0 +1,11 @@
+void MainWindow::on_pushButton_2_clicked()
+{
+    QFile file("/home/yunghuan/Desktop/Qt_Practice/lesson22/QFileDemo/myfile.txt");
+    if(!file.open(QFile::ReadOnly | QFile::Text)){
+        QMessageBox::warning(this,"title","file not open");
+    }
+    QTextStream in(&file);
+    QString text = in.readAll();
+    ui->plainTextEdit->setPlainText(text);
+    file.close();
+}
